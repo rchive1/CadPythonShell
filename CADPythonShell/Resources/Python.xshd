@@ -5,7 +5,7 @@
     <Property name="LineComment" value="#"/>
   </Properties>
 
-  <Digits name="Digits" color="DarkBlue"/>
+  <Digits name="Digits" color="GoldenRod"/>
 
   <RuleSets>
     <RuleSet ignorecase="false">
@@ -106,6 +106,13 @@
       <KeyWords name="WithStatement" color="DarkViolet">
         <Key word="with"/>
       </KeyWords>
+
+      <KeyWords name="Value" bold="true" color="Blue">
+         <Key word="True"/>
+         <Key word="False"/>
+         <Key word="None"/>
+      </KeyWords>
+		
     </RuleSet>
   </RuleSets>
 </SyntaxDefinition>
