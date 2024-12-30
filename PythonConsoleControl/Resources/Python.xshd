@@ -1,4 +1,5 @@
-﻿<SyntaxDefinition name="Python" extensions=".py">
+﻿<!-- This is the syntax highlighting definition for the interactive console, not the script editor -->
+<SyntaxDefinition name="Python" extensions=".py">
 	
 	<Properties>
 		<Property name="LineComment" value="#"/>
@@ -11,21 +12,21 @@
 			
 			<Delimiters>()[]{}@,:.`=;+-*/% &amp;|^&gt;&lt;</Delimiters>
 			
-			<Span name="DocComment" color="Green">
+			<Span name="DocComment" color="DarkGray">
 				<Begin>"""</Begin>
 				<End>"""</End>
 			</Span>
 			
-			<Span name="SingleQuoteDocComment" color="Green">
+			<Span name="SingleQuoteDocComment" color="DarkGray">
 				<Begin>'''</Begin>
 				<End>'''</End>
 			</Span>
 
-			<Span name="LineComment" stopateol="true" color="Green">
+			<Span name="LineComment" stopateol="true" color="DarkGray">
 				<Begin>#</Begin>
 			</Span>
 			
-			<Span name="String" stopateol="true" color="Blue" escapecharacter="\">
+			<Span name="String" stopateol="true" color="Red" escapecharacter="\">
 				<Begin>"</Begin>
 				<End>"</End>
 			</Span>
