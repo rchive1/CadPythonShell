@@ -78,7 +78,7 @@
         <Key word="while"/>
       </KeyWords>
 
-      <KeyWords name="JumpStatements" color="Navy">
+      <KeyWords name="JumpStatements" bold="true"  color="Navy">
         <Key word="break"/>
         <Key word="continue"/>
         <Key word="yield"/>
